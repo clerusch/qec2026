@@ -1,0 +1,2 @@
+[console_scripts]
+emerald-witness = emerald_witness.cli:main

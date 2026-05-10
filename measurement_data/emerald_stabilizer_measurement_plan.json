@@ -1,0 +1,382 @@
+{
+  "emerald_qubit_index_map": {
+    "QB23": 0,
+    "QB24": 1,
+    "QB25": 2,
+    "QB26": 3,
+    "QB27": 4,
+    "QB33": 5,
+    "QB34": 6,
+    "QB35": 7,
+    "QB42": 8,
+    "QB47": 9,
+    "QB48": 10,
+    "QB49": 11,
+    "QB52": 12,
+    "QB53": 13,
+    "QB54": 14
+  },
+  "graph_attrs": {
+    "api_layout": "current",
+    "calibration_set_id": "8d13b58d-3a2b-4e94-a0f6-e800d895e490",
+    "edge_error_quantile": 0.7,
+    "max_edge_error_rate": 0.0107149041036664,
+    "quantum_computer": "emerald",
+    "root_url": "https://resonance.meetiqm.com",
+    "t1_min": 4.5458096885794984e-05,
+    "t1_quantile": 0.35,
+    "target_size": 15
+  },
+  "measurement_settings": [
+    {
+      "bases": {
+        "0": "X",
+        "1": "Z",
+        "10": "X",
+        "11": "Z",
+        "12": "Z",
+        "13": "X",
+        "14": "Z",
+        "2": "X",
+        "3": "Z",
+        "4": "X",
+        "5": "Z",
+        "6": "X",
+        "7": "Z",
+        "8": "Z",
+        "9": "Z"
+      },
+      "measured_stabilizers": [
+        2,
+        13,
+        0,
+        6,
+        4,
+        10
+      ],
+      "setting_id": 0
+    },
+    {
+      "bases": {
+        "0": "Z",
+        "1": "X",
+        "10": "Z",
+        "11": "X",
+        "12": "X",
+        "13": "Z",
+        "14": "X",
+        "2": "Z",
+        "3": "X",
+        "4": "Z",
+        "5": "X",
+        "6": "Z",
+        "7": "X",
+        "8": "X",
+        "9": "X"
+      },
+      "measured_stabilizers": [
+        5,
+        14,
+        11,
+        9,
+        8,
+        7,
+        1,
+        12,
+        3
+      ],
+      "setting_id": 1
+    }
+  ],
+  "num_measurement_settings": 2,
+  "num_qubits": 15,
+  "ordered_qubit_names": [
+    "QB23",
+    "QB24",
+    "QB25",
+    "QB26",
+    "QB27",
+    "QB33",
+    "QB34",
+    "QB35",
+    "QB42",
+    "QB47",
+    "QB48",
+    "QB49",
+    "QB52",
+    "QB53",
+    "QB54"
+  ],
+  "quantum_computer": "emerald",
+  "server_url": "https://resonance.meetiqm.com",
+  "shots_per_setting": 1000,
+  "stabilizers": [
+    "X0Z1",
+    "X1Z0Z2",
+    "X2Z1Z3Z5",
+    "X3Z2Z4Z6",
+    "X4Z3Z7",
+    "X5Z2Z6",
+    "X6Z3Z5Z7Z8",
+    "X7Z4Z6",
+    "X8Z6Z10",
+    "X9Z10",
+    "X10Z8Z9Z12",
+    "X11Z13",
+    "X12Z10Z13",
+    "X13Z11Z12Z14",
+    "X14Z13"
+  ],
+  "subgraph": {
+    "edges": [
+      {
+        "cz_fidelity": 0.9941088504731104,
+        "edge_error_rate": 0.0058911495268896275,
+        "edge_score": 0.9941088504731104,
+        "qubits": [
+          "QB24",
+          "QB23"
+        ]
+      },
+      {
+        "cz_fidelity": 0.99581469169597,
+        "edge_error_rate": 0.0041853083040299666,
+        "edge_score": 0.99581469169597,
+        "qubits": [
+          "QB25",
+          "QB24"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9954927627565804,
+        "edge_error_rate": 0.004507237243419615,
+        "edge_score": 0.9954927627565804,
+        "qubits": [
+          "QB25",
+          "QB26"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9916686367498851,
+        "edge_error_rate": 0.008331363250114854,
+        "edge_score": 0.9916686367498851,
+        "qubits": [
+          "QB33",
+          "QB25"
+        ]
+      },
+      {
+        "cz_fidelity": 0.998613447370018,
+        "edge_error_rate": 0.0013865526299819964,
+        "edge_score": 0.998613447370018,
+        "qubits": [
+          "QB27",
+          "QB26"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9974685387439848,
+        "edge_error_rate": 0.0025314612560152217,
+        "edge_score": 0.9974685387439848,
+        "qubits": [
+          "QB34",
+          "QB26"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9897865085412596,
+        "edge_error_rate": 0.010213491458740398,
+        "edge_score": 0.9897865085412596,
+        "qubits": [
+          "QB35",
+          "QB27"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9974868099363928,
+        "edge_error_rate": 0.0025131900636071736,
+        "edge_score": 0.9974868099363928,
+        "qubits": [
+          "QB33",
+          "QB34"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9964103275717172,
+        "edge_error_rate": 0.0035896724282827863,
+        "edge_score": 0.9964103275717172,
+        "qubits": [
+          "QB35",
+          "QB34"
+        ]
+      },
+      {
+        "cz_fidelity": 0.996832706207578,
+        "edge_error_rate": 0.003167293792421977,
+        "edge_score": 0.996832706207578,
+        "qubits": [
+          "QB42",
+          "QB34"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9983327940998132,
+        "edge_error_rate": 0.0016672059001867634,
+        "edge_score": 0.9983327940998132,
+        "qubits": [
+          "QB42",
+          "QB48"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9967222859604324,
+        "edge_error_rate": 0.0032777140395675586,
+        "edge_score": 0.9967222859604324,
+        "qubits": [
+          "QB47",
+          "QB48"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9893980479044184,
+        "edge_error_rate": 0.010601952095581568,
+        "edge_score": 0.9893980479044184,
+        "qubits": [
+          "QB52",
+          "QB48"
+        ]
+      },
+      {
+        "cz_fidelity": 0.995484546152216,
+        "edge_error_rate": 0.004515453847783957,
+        "edge_score": 0.995484546152216,
+        "qubits": [
+          "QB49",
+          "QB53"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9966685420262654,
+        "edge_error_rate": 0.003331457973734575,
+        "edge_score": 0.9966685420262654,
+        "qubits": [
+          "QB52",
+          "QB53"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9982691697629708,
+        "edge_error_rate": 0.001730830237029246,
+        "edge_score": 0.9982691697629708,
+        "qubits": [
+          "QB54",
+          "QB53"
+        ]
+      }
+    ],
+    "graph_attrs": {
+      "api_layout": "current",
+      "calibration_set_id": "8d13b58d-3a2b-4e94-a0f6-e800d895e490",
+      "edge_error_quantile": 0.7,
+      "max_edge_error_rate": 0.0107149041036664,
+      "quantum_computer": "emerald",
+      "root_url": "https://resonance.meetiqm.com",
+      "t1_min": 4.5458096885794984e-05,
+      "t1_quantile": 0.35,
+      "target_size": 15
+    },
+    "qubits": [
+      {
+        "node_score": 0.814418890176124,
+        "prx_fidelity": 0.9997019001947942,
+        "qubit": "QB23",
+        "t1": 6.521805645505184e-05
+      },
+      {
+        "node_score": 0.7476834498891948,
+        "prx_fidelity": 0.9996426476865432,
+        "qubit": "QB24",
+        "t1": 5.958813160711993e-05
+      },
+      {
+        "node_score": 0.8147725558267158,
+        "prx_fidelity": 0.999612208037388,
+        "qubit": "QB25",
+        "t1": 6.526263853239306e-05
+      },
+      {
+        "node_score": 0.6652115100690814,
+        "prx_fidelity": 0.9994293479197562,
+        "qubit": "QB26",
+        "t1": 5.265359590813356e-05
+      },
+      {
+        "node_score": 0.6098388371587128,
+        "prx_fidelity": 0.9996167643426463,
+        "qubit": "QB27",
+        "t1": 4.794349487163637e-05
+      },
+      {
+        "node_score": 0.6117470690497869,
+        "prx_fidelity": 0.9995929127396158,
+        "qubit": "QB33",
+        "t1": 4.81086621499307e-05
+      },
+      {
+        "node_score": 0.6149468171050025,
+        "prx_fidelity": 0.9996335816675508,
+        "qubit": "QB34",
+        "t1": 4.837240124145945e-05
+      },
+      {
+        "node_score": 0.6658794341579779,
+        "prx_fidelity": 0.9992682263189926,
+        "qubit": "QB35",
+        "t1": 5.273643778743574e-05
+      },
+      {
+        "node_score": 0.6492178198704779,
+        "prx_fidelity": 0.9990398786435596,
+        "qubit": "QB42",
+        "t1": 5.136582101136445e-05
+      },
+      {
+        "node_score": 0.6928529062979354,
+        "prx_fidelity": 0.9994338461723504,
+        "qubit": "QB47",
+        "t1": 5.498875895970873e-05
+      },
+      {
+        "node_score": 0.8315921319776546,
+        "prx_fidelity": 0.9994950584452956,
+        "qubit": "QB48",
+        "t1": 6.670320890154611e-05
+      },
+      {
+        "node_score": 0.8899142452471092,
+        "prx_fidelity": 0.998552738724174,
+        "qubit": "QB49",
+        "t1": 7.17862390428517e-05
+      },
+      {
+        "node_score": 0.9998591441991826,
+        "prx_fidelity": 0.9996493195642172,
+        "qubit": "QB52",
+        "t1": 8.089772794860429e-05
+      },
+      {
+        "node_score": 0.8533402981530518,
+        "prx_fidelity": 0.9997052684331555,
+        "qubit": "QB53",
+        "t1": 6.850664808610332e-05
+      },
+      {
+        "node_score": 0.8057807140388621,
+        "prx_fidelity": 0.999623076403194,
+        "qubit": "QB54",
+        "t1": 6.4500981553678e-05
+      }
+    ]
+  },
+  "total_shots": 2000
+}

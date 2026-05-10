@@ -1,0 +1,76 @@
+{
+  "entanglement_threshold_sum": 4,
+  "ideal_graph_state_witness_value": -1.0,
+  "is_entangled_by_witness": false,
+  "num_qubits": 5,
+  "num_stabilizers": 5,
+  "ordered_qubit_names": [
+    "QB48",
+    "QB49",
+    "QB52",
+    "QB53",
+    "QB54"
+  ],
+  "stabilizer_expectation_sum": 4.0,
+  "stabilizer_expectations": [
+    {
+      "expectation_value": 0.4,
+      "qubit_indices": [
+        0,
+        2
+      ],
+      "setting_id": 0,
+      "shots": 10,
+      "stabilizer": "X0Z2",
+      "stabilizer_index": 0
+    },
+    {
+      "expectation_value": 0.8,
+      "qubit_indices": [
+        1,
+        3
+      ],
+      "setting_id": 1,
+      "shots": 10,
+      "stabilizer": "X1Z3",
+      "stabilizer_index": 1
+    },
+    {
+      "expectation_value": 1.0,
+      "qubit_indices": [
+        2,
+        0,
+        3
+      ],
+      "setting_id": 2,
+      "shots": 10,
+      "stabilizer": "X2Z0Z3",
+      "stabilizer_index": 2
+    },
+    {
+      "expectation_value": 0.8,
+      "qubit_indices": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "setting_id": 3,
+      "shots": 10,
+      "stabilizer": "X3Z1Z2Z4",
+      "stabilizer_index": 3
+    },
+    {
+      "expectation_value": 1.0,
+      "qubit_indices": [
+        4,
+        3
+      ],
+      "setting_id": 4,
+      "shots": 10,
+      "stabilizer": "X4Z3",
+      "stabilizer_index": 4
+    }
+  ],
+  "stabilizer_witness_value": 0.0
+}

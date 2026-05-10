@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emerald-witness"
+version = "0.1.0"
+description = "Clean modular workflow for IQM Emerald graph-state stabilizer witness experiments"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "matplotlib>=3.10",
+  "networkx>=3.6",
+  "numpy>=2.4",
+  "qiskit>=2.1",
+  "requests>=2.32",
+]
+
+[project.optional-dependencies]
+iqm = [
+  "iqm-client[qiskit]",
+]
+
+[project.scripts]
+emerald-witness = "emerald_witness.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

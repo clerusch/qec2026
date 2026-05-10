@@ -1,0 +1,213 @@
+{
+  "backend_max_circuits": null,
+  "backend_name": "IQMBackend",
+  "circuits_per_job": 100,
+  "emerald_qubit_index_map": {
+    "QB48": 0,
+    "QB49": 1,
+    "QB52": 2,
+    "QB53": 3,
+    "QB54": 4
+  },
+  "graph_attrs": {
+    "api_layout": "current",
+    "calibration_set_id": "8d13b58d-3a2b-4e94-a0f6-e800d895e490",
+    "edge_error_quantile": 0.7,
+    "max_edge_error_rate": 0.0107149041036664,
+    "quantum_computer": "emerald",
+    "root_url": "https://resonance.meetiqm.com",
+    "t1_min": 4.5458096885794984e-05,
+    "t1_quantile": 0.35,
+    "target_size": 5
+  },
+  "measurement_mode": "separate_stabilizers",
+  "measurement_settings": [
+    {
+      "bases": {
+        "0": "X",
+        "1": "Z",
+        "2": "Z",
+        "3": "Z",
+        "4": "Z"
+      },
+      "measured_stabilizers": [
+        0
+      ],
+      "setting_id": 0
+    },
+    {
+      "bases": {
+        "0": "Z",
+        "1": "X",
+        "2": "Z",
+        "3": "Z",
+        "4": "Z"
+      },
+      "measured_stabilizers": [
+        1
+      ],
+      "setting_id": 1
+    },
+    {
+      "bases": {
+        "0": "Z",
+        "1": "Z",
+        "2": "X",
+        "3": "Z",
+        "4": "Z"
+      },
+      "measured_stabilizers": [
+        2
+      ],
+      "setting_id": 2
+    },
+    {
+      "bases": {
+        "0": "Z",
+        "1": "Z",
+        "2": "Z",
+        "3": "X",
+        "4": "Z"
+      },
+      "measured_stabilizers": [
+        3
+      ],
+      "setting_id": 3
+    },
+    {
+      "bases": {
+        "0": "Z",
+        "1": "Z",
+        "2": "Z",
+        "3": "Z",
+        "4": "X"
+      },
+      "measured_stabilizers": [
+        4
+      ],
+      "setting_id": 4
+    }
+  ],
+  "num_jobs": 1,
+  "num_measurement_settings": 5,
+  "num_qubits": 5,
+  "ordered_qubit_names": [
+    "QB48",
+    "QB49",
+    "QB52",
+    "QB53",
+    "QB54"
+  ],
+  "physical_qubit_indices": [
+    47,
+    48,
+    51,
+    52,
+    53
+  ],
+  "quantum_computer": "emerald",
+  "server_url": "https://resonance.meetiqm.com",
+  "shots_per_setting": 10,
+  "stabilizers": [
+    "X0Z2",
+    "X1Z3",
+    "X2Z0Z3",
+    "X3Z1Z2Z4",
+    "X4Z3"
+  ],
+  "subgraph": {
+    "edges": [
+      {
+        "cz_fidelity": 0.9893980479044184,
+        "edge_error_rate": 0.010601952095581568,
+        "edge_score": 0.9893980479044184,
+        "qubits": [
+          "QB48",
+          "QB52"
+        ]
+      },
+      {
+        "cz_fidelity": 0.995484546152216,
+        "edge_error_rate": 0.004515453847783957,
+        "edge_score": 0.995484546152216,
+        "qubits": [
+          "QB53",
+          "QB49"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9966685420262654,
+        "edge_error_rate": 0.003331457973734575,
+        "edge_score": 0.9966685420262654,
+        "qubits": [
+          "QB53",
+          "QB52"
+        ]
+      },
+      {
+        "cz_fidelity": 0.9982691697629708,
+        "edge_error_rate": 0.001730830237029246,
+        "edge_score": 0.9982691697629708,
+        "qubits": [
+          "QB53",
+          "QB54"
+        ]
+      }
+    ],
+    "graph_attrs": {
+      "api_layout": "current",
+      "calibration_set_id": "8d13b58d-3a2b-4e94-a0f6-e800d895e490",
+      "edge_error_quantile": 0.7,
+      "max_edge_error_rate": 0.0107149041036664,
+      "quantum_computer": "emerald",
+      "root_url": "https://resonance.meetiqm.com",
+      "t1_min": 4.5458096885794984e-05,
+      "t1_quantile": 0.35,
+      "target_size": 5
+    },
+    "qubits": [
+      {
+        "node_score": 0.8315921319776546,
+        "prx_fidelity": 0.9994950584452956,
+        "qubit": "QB48",
+        "t1": 6.670320890154611e-05
+      },
+      {
+        "node_score": 0.8899142452471092,
+        "prx_fidelity": 0.998552738724174,
+        "qubit": "QB49",
+        "t1": 7.17862390428517e-05
+      },
+      {
+        "node_score": 0.9998591441991826,
+        "prx_fidelity": 0.9996493195642172,
+        "qubit": "QB52",
+        "t1": 8.089772794860429e-05
+      },
+      {
+        "node_score": 0.8533402981530518,
+        "prx_fidelity": 0.9997052684331555,
+        "qubit": "QB53",
+        "t1": 6.850664808610332e-05
+      },
+      {
+        "node_score": 0.8057807140388621,
+        "prx_fidelity": 0.999623076403194,
+        "qubit": "QB54",
+        "t1": 6.4500981553678e-05
+      }
+    ]
+  },
+  "submitted_jobs": [
+    {
+      "batch_index": 1,
+      "job_id": "019e10de-8202-7250-81c2-cba0f2a6b1c7",
+      "num_circuits": 5,
+      "setting_index_end": 4,
+      "setting_index_start": 0,
+      "shots_per_circuit": 10,
+      "total_shots": 50
+    }
+  ],
+  "total_shots": 50
+}
