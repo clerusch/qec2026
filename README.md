@@ -137,9 +137,9 @@ and evaluates
 W_G = alpha I - |G><G|
 ```
 
-from hardware-measured Pauli expectation values. For the alpha-1 GG run above, `alpha = 1.0`.
+from hardware-measured Pauli expectation values. For the alpha-1 GG run above, `alpha = 0.5`.
 For genuine multipartite entanglement certification with the graph-state biseparable threshold, omit
-`--alpha 1.0` so the code computes the threshold automatically.
+`--alpha 0.5` so the code computes the threshold automatically.
 
 The package also still contains the grouped stabilizer-generator workflow, which uses
 

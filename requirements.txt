@@ -1,0 +1,12 @@
+# Runtime dependencies for the clean Emerald witness workflow.
+# Install with:
+#   python -m pip install -r requirements.txt
+#
+# The live IQM submission/retrieval workflows require the IQM Qiskit integration.
+
+matplotlib>=3.10
+networkx>=3.6
+numpy>=2.4
+qiskit>=2.1
+requests>=2.32
+iqm-client[qiskit]
